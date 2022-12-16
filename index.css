@@ -1,0 +1,118 @@
+body{
+background-color: rgb(49, 65, 65);
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#cv{
+   
+  position: absolute;
+  margin-right: 90%;
+  margin-top: 0%;
+   font-size: 50px;
+   color: white;
+}
+nav a {
+    padding-left: 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    transition-duration: 0.5s;
+}
+nav a:hover{
+    color: gray;
+    font-size: 30px;
+}
+
+header{
+    background-image: url("img/header-background.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-bottom: 20px;
+   
+}
+
+#name{
+    color: black;
+    font-size: 25px;
+}
+
+#job{
+    font-size: 25px;
+}
+.sec1{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(227, 220, 220);
+    border-radius: 20px;
+    font-size: 20px;
+}
+.sec1 h1 {
+    padding-left: 5px;
+    padding-top: 5px;
+    color: rgb(118, 112, 112);
+}
+
+#aboutme{
+    padding-left: 5px;
+}
+
+#email{
+    padding-left: 5px;
+
+}
+#phoneNumer{
+    padding-left: 5px;
+}
+.qu{
+ width: 100%;
+ height: 150px;
+ background-color: rgb(227, 220, 220);
+ border-radius: 20px;
+ margin-top: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ font-size: 20px;
+ justify-content: center;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 40px;
+    margin-top: 20px;
+    
+
+}
+.icon a{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    transition-duration: 0.5s;
+}
+.icon a:hover{
+    color: grey;
+    font-size: 50px;
+}
